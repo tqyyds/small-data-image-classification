@@ -1,0 +1,5 @@
+-r requirements.txt
+# Optional: select a compatible CPU/CUDA build for your hardware.
+# Historical training package versions were not preserved with the archive.
+torch>=2.2,<3
+torchvision>=0.17,<1

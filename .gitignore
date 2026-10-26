@@ -1,0 +1,25 @@
+# Local data and all regenerated training artifacts stay outside version control.
+data/
+outputs/
+dist/
+.venv*/
+.local/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.npy
+*.npz
+models/
+models_transfer_cv/
+outputs_transfer_cv/
+optional_transfer_cnn/models*/
+optional_transfer_cnn/outputs/
+.DS_Store
+Thumbs.db

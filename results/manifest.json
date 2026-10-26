@@ -1,0 +1,537 @@
+{
+  "archive": "_verify_comp30027_v7",
+  "seed": 27,
+  "note": "Historical saved outputs. Hashes verify file integrity, not independent model generalization.",
+  "experiments": [
+    {
+      "id": "task1_core_efficientnet_b0_official_logistic_regression",
+      "task": "task1",
+      "model_key": "logistic_regression",
+      "feature_type": "efficientnet_b0",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/oof_predictions/task1_core_efficientnet_b0_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task1_core_efficientnet_b0_official_logistic_regression.csv",
+      "table_rows": [
+        20
+      ]
+    },
+    {
+      "id": "task1_core_efficientnet_b0_plus_provided_official_logistic_regression",
+      "task": "task1",
+      "model_key": "logistic_regression",
+      "feature_type": "efficientnet_b0_plus_provided",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/oof_predictions/task1_core_efficientnet_b0_plus_provided_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task1_core_efficientnet_b0_plus_provided_official_logistic_regression.csv",
+      "table_rows": [
+        21
+      ]
+    },
+    {
+      "id": "task1_core_provided_engineered_official_logistic_regression",
+      "task": "task1",
+      "model_key": "logistic_regression",
+      "feature_type": "provided_engineered",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/oof_predictions/task1_core_provided_engineered_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task1_core_provided_engineered_official_logistic_regression.csv",
+      "table_rows": [
+        19
+      ]
+    },
+    {
+      "id": "task1_core_provided_official_dummy",
+      "task": "task1",
+      "model_key": "dummy",
+      "feature_type": "provided",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/oof_predictions/task1_core_provided_official_dummy.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task1_core_provided_official_dummy.csv",
+      "table_rows": [
+        27
+      ]
+    },
+    {
+      "id": "task1_core_provided_official_logistic_regression",
+      "task": "task1",
+      "model_key": "logistic_regression",
+      "feature_type": "provided",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/oof_predictions/task1_core_provided_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task1_core_provided_official_logistic_regression.csv",
+      "table_rows": [
+        18
+      ]
+    },
+    {
+      "id": "task2_core_cnn_plus_provided_official_logistic_regression",
+      "task": "task2",
+      "model_key": "logistic_regression",
+      "feature_type": "cnn_plus_provided",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_core_cnn_plus_provided_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_core_cnn_plus_provided_official_logistic_regression.csv",
+      "table_rows": [
+        25
+      ]
+    },
+    {
+      "id": "task2_core_efficientnet_b0_official_logistic_regression",
+      "task": "task2",
+      "model_key": "logistic_regression",
+      "feature_type": "efficientnet_b0",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_core_efficientnet_b0_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_core_efficientnet_b0_official_logistic_regression.csv",
+      "table_rows": [
+        24
+      ]
+    },
+    {
+      "id": "task2_core_provided_engineered_official_logistic_regression",
+      "task": "task2",
+      "model_key": "logistic_regression",
+      "feature_type": "provided_engineered",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_core_provided_engineered_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_core_provided_engineered_official_logistic_regression.csv",
+      "table_rows": [
+        23
+      ]
+    },
+    {
+      "id": "task2_core_provided_official_dummy",
+      "task": "task2",
+      "model_key": "dummy",
+      "feature_type": "provided",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_core_provided_official_dummy.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_core_provided_official_dummy.csv",
+      "table_rows": [
+        28
+      ]
+    },
+    {
+      "id": "task2_core_provided_official_logistic_regression",
+      "task": "task2",
+      "model_key": "logistic_regression",
+      "feature_type": "provided",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_core_provided_official_logistic_regression.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_core_provided_official_logistic_regression.csv",
+      "table_rows": [
+        22
+      ]
+    },
+    {
+      "id": "task2_kaggle_cnn_plus_provided_official_random_forest",
+      "task": "task2",
+      "model_key": "random_forest",
+      "feature_type": "cnn_plus_provided",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/oof_predictions/task2_kaggle_cnn_plus_provided_official_random_forest.csv",
+      "prediction_column": "predicted_class_id",
+      "report": "results/historical/classification_reports/task2_kaggle_cnn_plus_provided_official_random_forest.csv",
+      "table_rows": [
+        26
+      ]
+    },
+    {
+      "id": "task1_resnet50_transfer_tta",
+      "task": "task1",
+      "model_key": "resnet50_transfer_tta",
+      "feature_type": "fine_tuned_resnet50",
+      "cv_folds": 3,
+      "n_train": 3750,
+      "classes": {
+        "0": "bird",
+        "1": "butterfly",
+        "2": "cat",
+        "3": "deer",
+        "4": "dog",
+        "5": "elephant",
+        "6": "frog",
+        "7": "horse",
+        "8": "sheep",
+        "9": "spider"
+      },
+      "predictions": "results/historical/task1_transfer/transfer_cnn_oof_predictions.csv",
+      "prediction_column": "class_id",
+      "report": "results/historical/task1_transfer/classification_report_oof.csv",
+      "metrics_json": "results/historical/task1_transfer/transfer_cnn_oof_metrics.json",
+      "fold_summary": "results/historical/task1_transfer/transfer_cnn_cv_summary.csv"
+    },
+    {
+      "id": "task2_resnet50_transfer_tta",
+      "task": "task2",
+      "model_key": "resnet50_transfer_tta",
+      "feature_type": "fine_tuned_resnet50",
+      "cv_folds": 5,
+      "n_train": 417,
+      "classes": {
+        "0": "American_Goldfinch",
+        "1": "Blue_Jay",
+        "2": "Cardinal",
+        "3": "Herring_Gull",
+        "4": "House_Sparrow",
+        "5": "Red_winged_Blackbird",
+        "6": "Ring_billed_Gull",
+        "7": "Song_Sparrow",
+        "8": "Wilson_Warbler",
+        "9": "Yellow_Warbler"
+      },
+      "predictions": "results/historical/task2_transfer/transfer_cnn_oof_predictions.csv",
+      "prediction_column": "class_id",
+      "report": "results/historical/task2_transfer/classification_report_oof.csv",
+      "metrics_json": "results/historical/task2_transfer/transfer_cnn_oof_metrics.json",
+      "fold_summary": "results/historical/task2_transfer/transfer_cnn_cv_summary.csv"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "results/historical/classification_reports/task1_core_efficientnet_b0_official_logistic_regression.csv",
+      "sha256": "9f09dbc49b56ac1f2174da942eaaacb2c2ad56085cca32e5db5851904abdf06f"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_core_efficientnet_b0_plus_provided_official_logistic_regression.csv",
+      "sha256": "522426de0c3743817297deddbadb6085152c6aab04366b528b89e24d5fe0f2c8"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_core_provided_engineered_official_logistic_regression.csv",
+      "sha256": "5c210fd3739bde1a9b4029fe1adb660705ae427bcf197264c98b329f131932a2"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_core_provided_official_dummy.csv",
+      "sha256": "440774309bdf86776eb16fb4ce6c0cf85fefcc766806c22846da48e5b4a4ae69"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_core_provided_official_logistic_regression.csv",
+      "sha256": "2d1d16ca2b1859e7c730cd155ebe5ae2c989b9e87f498725a6045a94115a014f"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_efficientnet_b0_linear_svc.csv",
+      "sha256": "99ce902e22ba0064b36c06f3007e452b314c033c8667dcce0b28cf6e154e7ccc"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_efficientnet_b0_logistic_regression.csv",
+      "sha256": "9f09dbc49b56ac1f2174da942eaaacb2c2ad56085cca32e5db5851904abdf06f"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_efficientnet_b0_plus_provided_extra_trees.csv",
+      "sha256": "557164cf72e22434307f9e82c7c127f99df5afa2183f2622452bb1cabc62d3eb"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_efficientnet_b0_plus_provided_official_random_forest.csv",
+      "sha256": "ef2b1e53abebe8ad6a23b8202783c87ec141479091bd2458c5c9c5c8d39651c2"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_efficientnet_b0_rbf_svm.csv",
+      "sha256": "bb8dc4108c37e7e19f57c6b2639592969b1a57f803353a85367adf7f4ccef540"
+    },
+    {
+      "path": "results/historical/classification_reports/task1_kaggle_resnet50_logistic_regression.csv",
+      "sha256": "36a95fb1aae7746e570546def7ee2c7d4959d4e89f9366b1ccec07935e03dbeb"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_core_cnn_plus_provided_official_logistic_regression.csv",
+      "sha256": "bc1905bcd9de045ad4c5c40eb1ee788499de0cbe55ea5dc4988111813260039e"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_core_efficientnet_b0_official_logistic_regression.csv",
+      "sha256": "55f99b1de4382e7b097658cbb866ffd0f3b7e3a5c2163c37149905f2b24fcf09"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_core_provided_engineered_official_logistic_regression.csv",
+      "sha256": "e368c4762843a6ad1428e924758bc484a440a0414a1957c54aac1ed3e6a04ffa"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_core_provided_official_dummy.csv",
+      "sha256": "8201a7f17f109e2bacffe051600b486c162537722af85e1b6b687a085152f941"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_core_provided_official_logistic_regression.csv",
+      "sha256": "95b4b803dedd1f8d3273d8910aa3652e8415ee5adde772fd2c877865e60902ba"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_cnn_plus_provided_extra_trees.csv",
+      "sha256": "8f3220fe42164c8254ac18e51494284abd5be32ba77896cec63c371129d449d0"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_cnn_plus_provided_official_random_forest.csv",
+      "sha256": "8bbd8e50c76ec16087df7d2d9f3756b1b73612f01ad5a2564575a8ef24d2965a"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_cnn_plus_provided_official_svm_random_forest.csv",
+      "sha256": "2d72c3b76785453e8154b0df7c2a1a018f0297b485ecc5ec7eddc46df32f9af5"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_efficientnet_b0_linear_svc.csv",
+      "sha256": "b3a95a15bf1f396e3f19a0042712a86b96a5b30d3c153429fbb2ae00186bd2cb"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_efficientnet_b0_logistic_regression.csv",
+      "sha256": "2cb5b23ed03bc063ad2ee6fd1cc54020d6e02d07b78a8323df0e937c2d29462a"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_efficientnet_b0_rbf_svm.csv",
+      "sha256": "0ccf210148b8700f9c1e36d921cd64f4bdb11342ba7e7aae693da3a731e0f9f0"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_mobilenet_v3_large_linear_svc.csv",
+      "sha256": "0f7d882f36610690759999e9b025f13394f45e90cb42864b16bb888132bd1399"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_mobilenet_v3_large_logistic_regression.csv",
+      "sha256": "2f97a03cb68e212bc942a1917eb08afec07f04034cca789ab992eba72cc7f238"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_mobilenet_v3_large_rbf_svm.csv",
+      "sha256": "8e0ea7aae14a45252c9cc955cee297cdf20451a3add255c3478ab2eae516b4bd"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_resnet50_linear_svc.csv",
+      "sha256": "9671369da8150cc315b9916144652af327fe42d514384f8b1b341728c17fe67c"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_resnet50_logistic_regression.csv",
+      "sha256": "c342e9ab16ed01a676059b0f34ae7769c8fe6809c5e0906ff8c261f09b8ba951"
+    },
+    {
+      "path": "results/historical/classification_reports/task2_kaggle_resnet50_rbf_svm.csv",
+      "sha256": "da4eda7882ec199e27c10f2124cc30bd7025cae7b4f98b1b70b765e0f2215de6"
+    },
+    {
+      "path": "results/historical/model_comparison.csv",
+      "sha256": "31ddadd9bbe6ee839025797ff6ce9573fce72f516d25e427b0095d54079d3cad"
+    },
+    {
+      "path": "results/historical/oof_predictions/task1_core_efficientnet_b0_official_logistic_regression.csv",
+      "sha256": "b85fa88b7141717f2f9b9bd6c0606d25597bb66e859e463799f0ef2a6ef7d812"
+    },
+    {
+      "path": "results/historical/oof_predictions/task1_core_efficientnet_b0_plus_provided_official_logistic_regression.csv",
+      "sha256": "42d261c6c0f823156505327b5d6c19ceb6f68adff8dd9fe440e069f1daba24c7"
+    },
+    {
+      "path": "results/historical/oof_predictions/task1_core_provided_engineered_official_logistic_regression.csv",
+      "sha256": "cb0a678cfb62970e56f148e86e08e65496a96b0b2f0618c391dfbed128a0a039"
+    },
+    {
+      "path": "results/historical/oof_predictions/task1_core_provided_official_dummy.csv",
+      "sha256": "6ec49af099ea374b1eae94fc3ec4b8d05b53f59b58f59fcb24400be757425904"
+    },
+    {
+      "path": "results/historical/oof_predictions/task1_core_provided_official_logistic_regression.csv",
+      "sha256": "6221f48007f89d0a8e54d83beecdbb66ed4907494942a675fc018e04434d698c"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_core_cnn_plus_provided_official_logistic_regression.csv",
+      "sha256": "ed733fec162e2c9ad2bb1e50020cd4d3072d4c6d066faceb569b15a80854ad60"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_core_efficientnet_b0_official_logistic_regression.csv",
+      "sha256": "f8d006a6a3a7605c708e2b5eba539d4846f78cbc79efdec8e8013ceb347f90c4"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_core_provided_engineered_official_logistic_regression.csv",
+      "sha256": "ec67eddf0ef158a8fc00fbee80ad7c093107a875958e9d0b7e9dfebfdfd0f67b"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_core_provided_official_dummy.csv",
+      "sha256": "6e340a29f51b23abb36a14819e120e0968bf86b0d96d975dbad489dbdf875e5f"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_core_provided_official_logistic_regression.csv",
+      "sha256": "723924385630d989cf1d12edf0f7113f8d2a30d962fbf88df4633e476ac03f15"
+    },
+    {
+      "path": "results/historical/oof_predictions/task2_kaggle_cnn_plus_provided_official_random_forest.csv",
+      "sha256": "1687d465a913549c8ce5210efd9f97844333fc27cc09092d61627608fb4a2dbc"
+    },
+    {
+      "path": "results/historical/task1_transfer/classification_report_oof.csv",
+      "sha256": "c2c54bc14972fa26f3e82acd7522fc7f44ede95254f84ca29d38ed5aad2b94b2"
+    },
+    {
+      "path": "results/historical/task1_transfer/transfer_cnn_cv_summary.csv",
+      "sha256": "96b733d2eb123966d13ef781e1a661f6abbe9312e8ac0e41a885386a080e1ecb"
+    },
+    {
+      "path": "results/historical/task1_transfer/transfer_cnn_oof_metrics.json",
+      "sha256": "47c1568c09dec01d2e10fd6da0e3247fc5026a715441889e2da4961f56c31ba4"
+    },
+    {
+      "path": "results/historical/task1_transfer/transfer_cnn_oof_predictions.csv",
+      "sha256": "4b933b6d8b9ff1a17998ac6179fa8fb96daf5524c2c3dac26f1a9b1b51e9555b"
+    },
+    {
+      "path": "results/historical/task2_transfer/classification_report_oof.csv",
+      "sha256": "9b18f61332220ebb319bf2671776986833cbfb9f539499a2293920f064c5aa40"
+    },
+    {
+      "path": "results/historical/task2_transfer/transfer_cnn_cv_summary.csv",
+      "sha256": "6923b5cc3cf88874376d077a52dc2e01910f3ea816b8e33d570436c4d5e5ced7"
+    },
+    {
+      "path": "results/historical/task2_transfer/transfer_cnn_oof_metrics.json",
+      "sha256": "e3dfb4549bcd750adfc33a30f1f89a6a2fcfa8d62e139f6456b0143c683fb985"
+    },
+    {
+      "path": "results/historical/task2_transfer/transfer_cnn_oof_predictions.csv",
+      "sha256": "c0433c1df321c13438e10113f9c6d6be17683e49a64bcfea6a53d30b21fa3a6c"
+    }
+  ]
+}

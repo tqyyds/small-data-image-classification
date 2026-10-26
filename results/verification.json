@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "historical_files_checked": 48,
+  "prediction_sets_checked": 13,
+  "experiments": [
+    {
+      "id": "task1_core_efficientnet_b0_official_logistic_regression",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.9045333333333333,
+      "macro_f1": 0.904788796920102,
+      "balanced_accuracy": 0.9045333333333334
+    },
+    {
+      "id": "task1_core_efficientnet_b0_plus_provided_official_logistic_regression",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.9056,
+      "macro_f1": 0.9058338165430708,
+      "balanced_accuracy": 0.9056000000000001
+    },
+    {
+      "id": "task1_core_provided_engineered_official_logistic_regression",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.5488,
+      "macro_f1": 0.549608013985635,
+      "balanced_accuracy": 0.5488000000000001
+    },
+    {
+      "id": "task1_core_provided_official_dummy",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.1,
+      "macro_f1": 0.01818181818181818,
+      "balanced_accuracy": 0.1
+    },
+    {
+      "id": "task1_core_provided_official_logistic_regression",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.5245333333333333,
+      "macro_f1": 0.5242431422875039,
+      "balanced_accuracy": 0.5245333333333334
+    },
+    {
+      "id": "task2_core_cnn_plus_provided_official_logistic_regression",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.920863309352518,
+      "macro_f1": 0.9212745490897986,
+      "balanced_accuracy": 0.9214285714285715
+    },
+    {
+      "id": "task2_core_efficientnet_b0_official_logistic_regression",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.9256594724220624,
+      "macro_f1": 0.9265670619240074,
+      "balanced_accuracy": 0.9261904761904762
+    },
+    {
+      "id": "task2_core_provided_engineered_official_logistic_regression",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.2805755395683453,
+      "macro_f1": 0.2842825269962706,
+      "balanced_accuracy": 0.28095238095238095
+    },
+    {
+      "id": "task2_core_provided_official_dummy",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.09592326139088729,
+      "macro_f1": 0.03173294059891998,
+      "balanced_accuracy": 0.09523809523809523
+    },
+    {
+      "id": "task2_core_provided_official_logistic_regression",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.2541966426858513,
+      "macro_f1": 0.2604114460984645,
+      "balanced_accuracy": 0.25457875457875456
+    },
+    {
+      "id": "task2_kaggle_cnn_plus_provided_official_random_forest",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.9328537170263789,
+      "macro_f1": 0.9331559639974062,
+      "balanced_accuracy": 0.9333333333333333
+    },
+    {
+      "id": "task1_resnet50_transfer_tta",
+      "task": "task1",
+      "n_train": 3750,
+      "cv_folds": 3,
+      "accuracy": 0.9493333333333334,
+      "macro_f1": 0.9492360817828823,
+      "balanced_accuracy": 0.9493333333333333
+    },
+    {
+      "id": "task2_resnet50_transfer_tta",
+      "task": "task2",
+      "n_train": 417,
+      "cv_folds": 5,
+      "accuracy": 0.9376498800959233,
+      "macro_f1": 0.9378312572137165,
+      "balanced_accuracy": 0.9379120879120879
+    }
+  ],
+  "limits": [
+    "Checks saved predictions and reported metrics; does not retrain models.",
+    "Raw course data and independent test labels are not distributed.",
+    "CV model/checkpoint selection limits remain; see docs/methodology.md."
+  ]
+}

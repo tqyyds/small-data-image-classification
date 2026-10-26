@@ -1,0 +1,44 @@
+{
+  "config": {
+    "arch": "resnet50",
+    "cv": 5,
+    "epochs": 45,
+    "freeze_epochs": 2,
+    "image_size": 224,
+    "seed": 27,
+    "task": "task2",
+    "tta": true
+  },
+  "leakage_checks": {
+    "oof_rows_equal_train_rows": true,
+    "oof_test_overlap": 0,
+    "oof_unique_image_ids": true
+  },
+  "mean_fold_metrics": {
+    "accuracy": 0.9376362593230063,
+    "balanced_accuracy": 0.9383333333333332,
+    "macro_f1": 0.937465698560126
+  },
+  "metadata_checks": {
+    "class_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "test_rows": 180,
+    "train_rows": 417,
+    "train_test_overlap": 0
+  },
+  "oof_metrics": {
+    "accuracy": 0.9376498800959233,
+    "balanced_accuracy": 0.9379120879120879,
+    "macro_f1": 0.9378312572137165
+  }
+}

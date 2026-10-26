@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.png binary
+# Preserve historical evidence byte-for-byte so hashes survive cross-platform clones.
+results/historical/** -text whitespace=cr-at-eol
